@@ -1,0 +1,6 @@
+@ScorePro_HostAddress = http://localhost:5171
+
+GET {{ScorePro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
