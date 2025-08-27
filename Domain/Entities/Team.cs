@@ -13,6 +13,8 @@ namespace Domain.Entities
         public string TeamLogoUrl { get; set; } = default!;
         public string CompetitionId { get; set; } = default!;
         public string CreatedByUserId { get; set; } = default!;
+        public int JudgesCount { get; set; }
+        public int AverageScore { get; set; }
         public Competition Competition { get; set; }
         public List<Contestant> TeamMembers { get; set; }
 

@@ -7,7 +7,7 @@ namespace Domain.Entities
 {
     public class Judge
     {
-        public string Id = new Guid().ToString();
+        public string Id { get; set; } = new Guid().ToString();
         public string CompetitionId { get; set; } = default!;
         public string UserId { get; set; } = default!;
         public int Rating { get; set; } = default!;
