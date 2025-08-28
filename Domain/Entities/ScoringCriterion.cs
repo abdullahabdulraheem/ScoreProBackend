@@ -10,5 +10,6 @@ namespace Domain.Entities
         public string CompetitionId { get; set; } = default!;
         public int MaxScore { get; set; }
         public int Weightage { get; set; }
+        public Competition Competition { get; set; } = default!;
     }
 }

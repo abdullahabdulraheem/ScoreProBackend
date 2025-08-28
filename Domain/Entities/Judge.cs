@@ -11,7 +11,7 @@ namespace Domain.Entities
         public string UserId { get; set; } = default!;
         public int Rating { get; set; }
         public User User { get; set; } = default!;
-        public List<Competition> CompetitionAssigments { get; set; } = default!;
+        public List<Competition> CompetitionAssignments { get; set; } = default!;
         public List<Score> Scores { get; set; } = [];
     }
 }

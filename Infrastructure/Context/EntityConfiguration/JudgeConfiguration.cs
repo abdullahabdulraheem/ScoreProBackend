@@ -21,8 +21,8 @@ namespace Infrastructure.Context.EntityConfiguration
                 .HasForeignKey(s => s.JudgeId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasMany(j => j.CompetitionAssigments)
-                .WithMany(c => c.AssignedJudges) // already exists in Competition
+            builder.HasMany(j => j.CompetitionAssignments)
+                .WithMany(c => c.AssignedJudges)
                 .UsingEntity(jc => jc.ToTable("CompetitionJudges")); // join table
         }
 

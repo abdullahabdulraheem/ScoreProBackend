@@ -18,8 +18,8 @@ namespace Infrastructure.Context
             modelBuilder.ApplyConfiguration(new ContestantConfiguration());
             modelBuilder.ApplyConfiguration(new ScoreConfiguration());
             modelBuilder.ApplyConfiguration(new JudgeConfiguration());
-            modelBuilder.ApplyConfiguration(new Competitionconfig());
-            // Add CompetitionConfig, TeamConfig, UserConfig if needed
+            modelBuilder.ApplyConfiguration(new CompetitionConfiguration());
+            modelBuilder.ApplyConfiguration(new TeamConfiguration());
         }
     }
 }
