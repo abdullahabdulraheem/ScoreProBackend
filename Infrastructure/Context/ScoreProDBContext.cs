@@ -15,6 +15,7 @@ namespace Infrastructure.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new ContestantConfiguration());
             modelBuilder.ApplyConfiguration(new ScoreConfiguration());
             modelBuilder.ApplyConfiguration(new JudgeConfiguration());
