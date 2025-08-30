@@ -7,7 +7,7 @@ var connectionString = builder.Configuration.GetConnectionString("ScoreProDbCont
                        ?? throw new InvalidOperationException("Connection string 'ScoreProDbContext' not found.");
 
 builder.Services.AddDbContext<ScoreProDbContext>(options =>
-    options.UseNpgsql());
+    options.UseNpgsql(connectionString));
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
