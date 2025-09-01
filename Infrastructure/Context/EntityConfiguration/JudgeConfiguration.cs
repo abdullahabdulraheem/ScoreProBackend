@@ -8,6 +8,7 @@ namespace Infrastructure.Context.EntityConfiguration
     {
         public void Configure(EntityTypeBuilder<Judge> builder)
         {
+            builder.ToTable("Judges");
             builder.HasKey(j => j.Id);
 
             builder.Property(j => j.Rating)

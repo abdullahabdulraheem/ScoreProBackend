@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -21,21 +17,22 @@ namespace Infrastructure.Context.EntityConfiguration
                             .HasMaxLength(200);
 
                      builder.Property(t => t.Description)
+                            .IsRequired()
                             .HasMaxLength(500);
 
                      builder.Property(t => t.TeamLogoUrl)
                             .HasMaxLength(500);
 
-                     builder.Property(t => t.CreatedAt)
+                     builder.Property(t => t.CompetitionId)
+                            .IsRequired();
+
+                     builder.Property(t => t.CreatedByUserId)
                             .IsRequired();
 
                      builder.Property(t => t.AverageScore)
                             .HasDefaultValue(0);
 
-                     builder.Property(t => t.CompetitionId)
-                            .IsRequired();
-
-                     builder.Property(t => t.CreatedByUserId)
+                     builder.Property(t => t.CreatedAt)
                             .IsRequired();
 
                      // Relationships
@@ -44,14 +41,15 @@ namespace Infrastructure.Context.EntityConfiguration
                             .HasForeignKey(t => t.CompetitionId)
                             .OnDelete(DeleteBehavior.Cascade);
 
-                     builder.HasMany(t => t.TeamMembers)
+                     builder.HasMany(t => t.Contestants)
                             .WithOne(m => m.Team)
                             .HasForeignKey(m => m.TeamId)
-                            .OnDelete(DeleteBehavior.Cascade);
-                   
+                            .OnDelete(DeleteBehavior.SetNull);
+
                      builder.HasMany(c => c.Scores)
                             .WithOne(s => s.Team)
-                            .HasForeignKey(s => s.TeamId);
+                            .HasForeignKey(s => s.TeamId)
+                            .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

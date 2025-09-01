@@ -12,7 +12,7 @@ namespace Domain.Entities
         public string Email { get; set; } = default!;
         public string CompetitionId { get; set; } = default!;
         public string UserId { get; set; } = default!;
-        public string TeamId { get; set; } = default!;
+        public string? TeamId { get; set; }
         public int AverageScore { get; set; }
         public int TotalScore { get; set; }
         public User User { get; set; } = default!;
