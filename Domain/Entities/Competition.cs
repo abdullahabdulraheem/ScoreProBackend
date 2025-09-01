@@ -10,7 +10,7 @@ namespace Domain.Entities
         public string CompetitionName { get; set; } = default!;
         public string CompetitionType { get; set; } = default!;
         public string Description { get; set; } = default!;
-        public string CompetitionImageUrl { get; set; } = default!;
+        public string? CompetitionImageUrl { get; set; } = default!;
         public string CreatedByUserId { get; set; } = default!;
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

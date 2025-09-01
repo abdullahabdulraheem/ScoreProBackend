@@ -1,7 +1,6 @@
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Infrastructure.Context.EntityConfiguration
 {
@@ -26,7 +25,7 @@ namespace Infrastructure.Context.EntityConfiguration
                    .IsRequired()
                    .HasMaxLength(50);
 
-            builder.Property(u => u.CometitionsContestedIn)
+            builder.Property(u => u.CompetitionsContestedIn)
                    .HasDefaultValue(0);
 
             builder.Property(u => u.CompetitionsWon)

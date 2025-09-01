@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -17,12 +13,14 @@ namespace Infrastructure.Context.EntityConfiguration
             builder.HasKey(s => s.Id);
 
             builder.Property(s => s.ContestantId)
-                .IsRequired()
-                .HasMaxLength(50);
+                .HasDefaultValue(null);
+
+            builder.Property(s => s.TeamId)
+                .HasDefaultValue(null);
 
             builder.Property(s => s.JudgeId)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(500);
 
             builder.Property(s => s.Value)
                 .IsRequired()
@@ -36,6 +34,11 @@ namespace Infrastructure.Context.EntityConfiguration
 
             builder.HasOne(s => s.Judge)
                 .WithMany(j => j.Scores)
+                .HasForeignKey(s => s.JudgeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(s => s.Team)
+                .WithMany(t => t.Scores)
                 .HasForeignKey(s => s.JudgeId)
                 .OnDelete(DeleteBehavior.Cascade);
 

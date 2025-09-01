@@ -1,4 +1,5 @@
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\bin\Debug\net8.0\Domain.dll
@@ -13,4 +14,5 @@ C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\Infras
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Abdullah\Desktop\ScoreProBackend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

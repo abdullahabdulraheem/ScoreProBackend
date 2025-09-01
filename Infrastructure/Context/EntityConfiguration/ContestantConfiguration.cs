@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -24,12 +20,33 @@ namespace Infrastructure.Context.EntityConfiguration
                 .IsRequired()
                 .HasMaxLength(150);
 
-            builder.Property(c => c.CreatedAt)
+            builder.Property(c => c.CompetitionId)
                 .IsRequired()
-                .HasDefaultValueSql("NOW()");
+                .HasMaxLength(500);
+
+            builder.Property(c => c.UserId)
+                .IsRequired()
+                .HasMaxLength(500);
+
+            builder.Property(c => c.TeamId)
+                .HasDefaultValue(null)
+                .HasMaxLength(500);
+
+            builder.Property(c => c.AverageScore)
+                .IsRequired()
+                .HasDefaultValue(0)
+                .HasMaxLength(500);
+                
+            builder.Property(c => c.TotalScore)
+                .IsRequired()
+                .HasDefaultValue(0)
+                .HasMaxLength(500);
+
+            builder.Property(c => c.CreatedAt)
+                .IsRequired();
 
             builder.Property(c => c.UpdatedAt)
-                .HasDefaultValueSql("NOW()");
+                .IsRequired();
 
             // Relationships
             builder.HasOne(c => c.User)
@@ -43,7 +60,7 @@ namespace Infrastructure.Context.EntityConfiguration
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasOne(c => c.Team)
-                .WithMany(t => t.TeamMembers)
+                .WithMany(t => t.Contestants)
                 .HasForeignKey(c => c.TeamId)
                 .OnDelete(DeleteBehavior.SetNull);
 
