@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D05DB38-FDD2-4C70-86F7-764521BCC38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\abdullah\\desktop\\scoreprobackend\\infrastructure\\context\\scoreprodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D05DB38-FDD2-4C70-86F7-764521BCC38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\scoreprodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|c:\\users\\abdullah\\desktop\\scoreprobackend\\domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|c:\\users\\abdullah\\desktop\\scoreprobackend\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19ED2ED9-21CF-4110-96FB-6FF04CB1053A}|ScorePro\\ScorePro.csproj|c:\\users\\abdullah\\desktop\\scoreprobackend\\scorepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19ED2ED9-21CF-4110-96FB-6FF04CB1053A}|ScorePro\\ScorePro.csproj|solutionrelative:scorepro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|c:\\users\\abdullah\\desktop\\scoreprobackend\\domain\\entities\\contestant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA953FAE-0D25-4834-9108-8CDDC28D8984}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\contestant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:08:55.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contestant.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\Contestant.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Contestant.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\Contestant.cs",
+              "RelativeToolTip": "Domain\\Entities\\Contestant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:07:15.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\ScorePro\\Program.cs",
+              "RelativeDocumentMoniker": "ScorePro\\Program.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\ScorePro\\Program.cs",
+              "RelativeToolTip": "ScorePro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:06:25.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreProDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Infrastructure\\Context\\ScoreProDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\ScoreProDbContext.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Infrastructure\\Context\\ScoreProDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\ScoreProDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:06:00.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\Team.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Team.cs",
+              "ToolTip": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Entities\\Team.cs",
+              "RelativeToolTip": "Domain\\Entities\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:02:11.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

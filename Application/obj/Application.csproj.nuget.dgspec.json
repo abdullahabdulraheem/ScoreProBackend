@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Domain.csproj": {
+    "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Abdullah\\Desktop\\ScoreProBackend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,14 +48,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
